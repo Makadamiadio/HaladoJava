@@ -1,3 +1,3 @@
-# Haladó Java repó
+# A Java még hátravan
 Halogatás, halogatás...
-A Java még hátravan
+
