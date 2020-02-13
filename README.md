@@ -1,6 +1,6 @@
-# README #
-Halado java kurzus anayagai
-osszes forditasa:
+# Haladó Dzsuva #
+Haladó Java kurzus anayagai
+összes fordítása:
 ```
 mvn clean package
 ```
