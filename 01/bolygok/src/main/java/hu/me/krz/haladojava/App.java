@@ -1,13 +1,16 @@
 package hu.me.krz.haladojava;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	
+		Astronomer galileo = new Astronomer("Galileo");
+		Astronomer figaro = new Astronomer("Figaro");
+		Astronomer magnifico = new Astronomer("Magnifico");
+		galileo.observeTheSky();
+		figaro.observeTheSky();
+		magnifico.observeTheSky();
+		System.out.println("I'm just a poor boy, nobody loves me.");
     }
 }

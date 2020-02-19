@@ -2,17 +2,17 @@ package hu.me.krz.haladojava;
 
 public final class Planet {
 	
-	private final long position;
+	private final Point position;
 	private final int radius;
 	private final String name;
 	
-	public Planet(long position, int radius, String name){
+	public Planet(Point position, int radius, String name){
 		this.position = position;
 		this.radius = radius;
 		this.name = name;
 	}
 	
-	public long getPos(){
+	public Point getPos(){
 		return this.position;
 	}
 	
@@ -22,6 +22,11 @@ public final class Planet {
 	
 	public String getName(){
 		return this.name;
+	}
+	
+	@Override
+	public String toString() {
+		return this.name + ", " + this.position.toString() + ", " + this.radius + "\n";
 	}
 	
 }
