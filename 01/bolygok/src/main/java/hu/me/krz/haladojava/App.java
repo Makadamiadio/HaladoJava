@@ -11,6 +11,5 @@ public class App
 		galileo.observeTheSky();
 		figaro.observeTheSky();
 		magnifico.observeTheSky();
-		System.out.println("I'm just a poor boy, nobody loves me.");
     }
 }
