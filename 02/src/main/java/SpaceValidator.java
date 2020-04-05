@@ -1,5 +1,5 @@
 public class SpaceValidator implements Validator {
-    @Override
+    // @Override
     public boolean isValid(User user) {
         return user.getName().indexOf(" ") == -1;
     }
